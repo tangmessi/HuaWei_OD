@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class HW_HJ19 {
+public class 简单错误记录19 {
     public static void main(String[] args) throws IOException {
         //标准输入流程
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

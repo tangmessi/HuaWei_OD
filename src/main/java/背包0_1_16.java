@@ -11,7 +11,7 @@ v[j 1 ]*w[j 1 ]+v[j 2 ]*w[j 2 ]+ … +v[j k ]*w[j k ] 。（其中 * 为乘号�
 */
 import java.util.Scanner;
 
-public class HW_HJ16 {
+public class 背包0_1_16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int money = sc.nextInt();//拥有的钱
