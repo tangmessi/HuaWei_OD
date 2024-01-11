@@ -1,4 +1,4 @@
-
+package old;
 /*
 如果要买归类为附件的物品，必须先买该附件所属的主件。每个主件可以有 0 个、 1 个或 2 个附件。
 附件不再有从属于自己的附件。王强想买的东西很多，为了不超出预算，他把每件物品规定了一个重要度，分为 5 等：
@@ -69,7 +69,7 @@ public class 背包0_1_16 {
                 //当物品i是附件时,相当于跳过,等于上一个网格
                 //不填充数据时候默认为零
                 TwoDimensionalArray[i][j] = TwoDimensionalArray[i-1][j];
-                if(Something[i].q > 0) {   
+                if(Something[i].q > 0) {
                     continue;
                 }
                 else {
@@ -82,7 +82,7 @@ public class 背包0_1_16 {
                 }
             }
         }
-        /* 
+        /*
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= money; j++) {
                 System.out.printf("%6d", TwoDimensionalArray[i][j]);
@@ -123,7 +123,7 @@ public class 背包0_1_16 {
     }
 }
 /*
-6 5 
+6 5
 1 1 0
 2 3 1
 2 2 0

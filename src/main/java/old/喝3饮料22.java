@@ -1,3 +1,5 @@
+package old;
+
 import java.util.Scanner;
 
 public class 喝3饮料22 {

@@ -1,3 +1,4 @@
+package old;
 
 public class MaxBag {
     static int n;           // 描述物品个数

@@ -1,7 +1,9 @@
+package old;
+
 import java.io.*;
 import java.util.*;
 
-public class HW_HJ19_1 {
+public class 简单错误记录19 {
     public static void main(String[] args) throws IOException {
         //标准输入流程
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
@@ -15,16 +17,12 @@ public class HW_HJ19_1 {
         }
 
         //控制字符到16位；
-        String [] tem;
-        String TemFor18Char;
-        String [] ListFS;
-        int FSL;
-        int TemNum;
         for (String i:list1) {
-            tem = i.split("\\\\");
-            TemNum = tem.length -1;
-            ListFS = tem[TemNum].split(" ");
-            FSL = ListFS[0].length();
+            String [] tem = i.split("\\\\");
+            String TemFor18Char = new String();
+            int TemNum = tem.length -1;
+            String [] ListFS = tem[TemNum].split(" ");
+            int FSL = ListFS[0].length();
             if (FSL>16){
                 ListFS[0] = ListFS[0].substring(FSL-16);
             }
@@ -46,10 +44,9 @@ public class HW_HJ19_1 {
         }
 
         //转化为list输出
-        String temstr;
         ArrayList<String> HMList = new ArrayList<String>();
         for (String string : ErrorMap.keySet()) {
-            temstr = string + " " + ErrorMap.get(string);
+            String temstr = string + " " + ErrorMap.get(string);
             HMList.add(temstr);
         }
 

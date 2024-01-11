@@ -1,3 +1,5 @@
+package old;
+
 public class 加号顺序 {
     public static void main(String[] args) {
         int a = 1;

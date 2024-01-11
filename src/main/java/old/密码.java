@@ -1,3 +1,5 @@
+package old;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -28,7 +30,7 @@ public class 密码{
             }
             System.out.println("");
 
-            
+
         }
     }
 }
